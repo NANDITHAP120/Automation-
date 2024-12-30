@@ -1,4 +1,4 @@
-package com.pelatro.automation.practiceAutomation.server;
+package com.pelatro.automation.practiceAutomation.test.steps;
 
 import com.gargoylesoftware.htmlunit.javascript.host.file.File;
 import com.pelatro.automation.practiceAutomation.utils.*;

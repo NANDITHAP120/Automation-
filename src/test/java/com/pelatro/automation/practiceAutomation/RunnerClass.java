@@ -6,9 +6,9 @@ import cucumber.api.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
  
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(features = "src/test/resources/server.feature", plugin = {
+@CucumberOptions(features = "src/test/resources", plugin = {
 		"rerun:target/rerun.txt" }, glue = {
-				"com.pelatro.automation.practiceAutomation.server" }, tags = { "" }, format = { "pretty"} )
+				"com.pelatro.automation.practiceAutomation.test.steps" }, tags = { "" }, format = { "pretty"} )
 public class RunnerClass
 {
 	
